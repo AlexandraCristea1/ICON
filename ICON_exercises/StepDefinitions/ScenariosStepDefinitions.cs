@@ -16,7 +16,7 @@ namespace ICON_exercises.StepDefinitions
         private UserResponse? userResponse;
 
         [Given(@"^I have the API endpoint (.*)")]
-        public void GivenIHaveTheAPIEndpointAsync(string url)
+        public void GivenIHaveTheAPIEndpoint(string url)
         {
             BaseUrl = url;
         }
